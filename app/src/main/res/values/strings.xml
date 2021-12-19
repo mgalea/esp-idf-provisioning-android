@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">ESP Provisioning</string>
-    <string name="app_name_ble">ESP BLE Prov</string>
-    <string name="app_name_softap">ESP SoftAP Prov</string>
+    <string name="app_name">IOT Device Provisioning</string>
+    <string name="app_name_ble">IOT Device BLE Prov</string>
+    <string name="app_name_softap">IOT Device SoftAP Prov</string>
 
     <!-- Screen Titles -->
     <string name="title_activity_connect_device">Connect to Device</string>
@@ -52,7 +52,7 @@
     <string name="error_prov_step_3">Failed to provisioning device</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_provision_landing">Connect to device</string>
+    <string name="title_activity_provision_landing">Connect to IOT device</string>
     <string name="connected_to_device_instructions">You are now connected to the device. To provision the device, please enter your Network credentials on the next page.</string>
     <string name="no_internet_note">To make sure you are really connected to the device, please make sure you accept the system dialog informing you that network has no internet access.</string>
     <string name="connect_to_device_action">Connect</string>
@@ -72,9 +72,9 @@
     <string name="enabled_bluetooth_action">Provision Network</string>
 
     <!-- Strings used for Progress -->
-    <string name="progress_scanning">Scanning Devices...</string>
+    <string name="progress_scanning">Scanning Devices…</string>
     <string name="progress_get_status">Getting Status</string>
-    <string name="progress_loading">Loading...</string>
+    <string name="progress_loading">Loading…</string>
 
     <!--Error Messages-->
     <string name="error_title">Error!</string>
@@ -92,13 +92,14 @@
     <string name="error_provisioning">Reset your board to factory defaults and retry</string>
     <string name="error_wifi_off">Please turn on Wi-Fi to connect with device.</string>
 
-    <string name="prefix">Prefix :</string>
+    <string name="prefix">Prefix:</string>
     <string name="hint_prefix">Enter Prefix</string>
     <string name="hint_key">Enter PIN</string>
     <string name="devices_title">Devices</string>
     <string name="enter_device_key">Enter Your Proof Of Possession PIN</string>
     <string name="app_version">App Version</string>
-    <string name="powered_by_esp">Powered by ESPRESSIF</string>
+    <string name="powered_by_rsi">Powered by RANDOM SYSTEMS INTERNATIONAL</string>
+    <string name="application_copyright">Copyright 2021. All rights reserved.</string>
 
     <string name="join_other_network">Join Other Network</string>
     <string name="networks">Networks</string>
@@ -117,6 +118,7 @@
     <!-- Messages Preferences -->
     <string name="device_selection_title">Supported Device Types</string>
     <string name="security_selection_title">Encrypted Device Communication</string>
-    <string name="summary_security">Send data using Security1</string>
+    <string name="summary_security">Send data using Security Level 1</string>
+    <string name="todo">TODO</string>
 
 </resources>
