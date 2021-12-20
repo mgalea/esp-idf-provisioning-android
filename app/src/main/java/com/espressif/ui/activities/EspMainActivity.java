@@ -86,11 +86,11 @@ public class EspMainActivity extends AppCompatActivity {
 
         deviceType = sharedPreferences.getString(AppConstants.KEY_DEVICE_TYPES, AppConstants.DEVICE_TYPE_DEFAULT);
         if (deviceType.equals(AppConstants.DEVICE_TYPE_BLE)) {
-            ivEsp.setImageResource(R.drawable.ic_esp_ble);
+            ivEsp.setImageResource(R.drawable.ic_bluetooth_logo);
         } else if (deviceType.equals(AppConstants.DEVICE_TYPE_SOFTAP)) {
-            ivEsp.setImageResource(R.drawable.ic_esp_softap);
+            ivEsp.setImageResource(R.drawable.ic_wifi_logo);
         } else {
-            ivEsp.setImageResource(R.drawable.ic_esp);
+            ivEsp.setImageResource(R.drawable.ic_rs_new_logo);
         }
     }
 
@@ -144,7 +144,7 @@ public class EspMainActivity extends AppCompatActivity {
 
     private void initViews() {
 
-        ivEsp = findViewById(R.id.iv_esp);
+        ivEsp = findViewById(R.id.iv_rsi);
         btnAddDevice = findViewById(R.id.btn_provision_device);
         btnAddDevice.findViewById(R.id.iv_arrow).setVisibility(View.GONE);
         btnAddDevice.setOnClickListener(addDeviceBtnClickListener);

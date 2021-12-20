@@ -42,7 +42,7 @@ import java.util.concurrent.Executors;
  */
 public class SoftAPTransport implements Transport {
 
-    private static final String TAG = "Espressif::" + SoftAPTransport.class.getSimpleName();
+    private static final String TAG = "ESP:" + SoftAPTransport.class.getSimpleName();
     private static final String SET_COOKIE_HEADER = "Set-Cookie";
     private static final String COOKIE_HEADER = "Cookie";
 
@@ -62,9 +62,11 @@ public class SoftAPTransport implements Transport {
     }
 
     private byte[] sendPostRequest(String path, byte[] data, final ResponseListener listener) {
+
         byte[] responseBytes = null;
         try {
             URL url = new URL("http://" + baseUrl + "/" + path);
+
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setDoOutput(true);
 
@@ -135,6 +137,7 @@ public class SoftAPTransport implements Transport {
      */
     @Override
     public void sendConfigData(final String path, final byte[] data, final ResponseListener listener) {
+        Log.d(TAG, "URI Path: " + path);
         this.workerThreadPool
                 .submit(new Runnable() {
                     @Override

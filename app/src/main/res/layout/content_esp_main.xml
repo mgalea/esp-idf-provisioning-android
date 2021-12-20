@@ -13,19 +13,22 @@
         android:layout_above="@id/btn_provision_device">
 
         <ImageView
-            android:id="@+id/iv_esp"
+            android:id="@+id/iv_rsi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/margin_64"
+            android:layout_marginRight="@dimen/margin_64"
+            android:alpha=".5"
             android:contentDescription="@string/powered_by_rsi"
-            android:src="@drawable/ic_esp"
+            android:src="@drawable/ic_rs_new_logo"
             tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
     </RelativeLayout>
 
     <include
         android:id="@+id/btn_provision_device"
-        layout="@layout/button"
+        layout="@layout/btn_prov_device"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/ll_version"

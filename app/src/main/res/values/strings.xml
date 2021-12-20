@@ -25,7 +25,8 @@
     <string name="btn_connecting">Connecting&#8230;</string>
     <string name="btn_wifi_settings">Go to Wi-Fi Settings</string>
     <string name="btn_scan_again">Scan Again</string>
-    <string name="btn_no_qr_code">I don\'t have a QR code</string>
+    <string name="btn_no_qr_code">No QR code</string>
+    <string name="btn_default_pop">Use Default POP PIN</string>
     <string name="btn_save">Save</string>
     <string name="btn_change_prefix">Change</string>
     <string name="btn_yes">Yes</string>
@@ -37,9 +38,10 @@
     <string name="hint_password">Password</string>
 
     <!-- Instruction Strings -->
-    <string name="pop_instruction">Enter your proof of possession PIN for</string>
-    <string name="setup_instructions">To complete setup of your device %1$s, please provide your Home Network\'s credentials.</string>
-    <string name="connect_device_instruction_general">To provision your device, make sure it is turned ON. Connect your mobile phone to the Wi-Fi network with a name like PROV_XXXXXX</string>
+    <string name="pop_instruction">Enter proof of possession (POP) PIN for</string>
+    <string name="pop_default_instruction">Or use the default (POP) PIN</string>
+    <string name="setup_instructions">To complete setup of your device %1$s, please provide the right Network\'s credentials.</string>
+    <string name="connect_device_instruction_general">To provision your device, make sure it is turned ON. Connect your mobile phone to the Wi-Fi network with a name like RSI_XXXXXX</string>
     <string name="connect_device_instruction_specific">To provision your device, make sure it is turned ON. Connect your mobile phone to the Wi-Fi network with the name</string>
 
     <!-- Provisioning Steps Strings -->
@@ -96,14 +98,14 @@
     <string name="hint_prefix">Enter Prefix</string>
     <string name="hint_key">Enter PIN</string>
     <string name="devices_title">Devices</string>
-    <string name="enter_device_key">Enter Your Proof Of Possession PIN</string>
+    <string name="enter_device_key">Enter Proof Of Possession (POP) PIN</string>
     <string name="app_version">App Version</string>
     <string name="powered_by_rsi">Powered by RANDOM SYSTEMS INTERNATIONAL</string>
     <string name="application_copyright">Copyright 2021. All rights reserved.</string>
 
     <string name="join_other_network">Join Other Network</string>
     <string name="networks">Networks</string>
-    <string name="connect_your_device">Connect to your device</string>
+    <string name="connect_your_device">Connect IoT Device</string>
 
     <string name="dialog_msg_gps">Location services are disabled. Please enable them to continue</string>
     <string name="dialog_msg_device_selection">Select Device Type</string>

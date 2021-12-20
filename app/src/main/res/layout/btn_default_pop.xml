@@ -20,9 +20,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="8sp"
-            android:text="@string/btn_provision_device"
+            android:text="@string/btn_default_pop"
             android:textColor="@android:color/white"
-            android:textSize="16sp"
+            android:textSize="@dimen/btn_text_font_size_lg"
             android:textStyle="bold" />
 
         <ImageView
@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:contentDescription="@string/btn_next"
             android:src="@drawable/ic_right_arrow" />
 
         <androidx.core.widget.ContentLoadingProgressBar

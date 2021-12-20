@@ -25,7 +25,7 @@ import com.espressif.provisioning.transport.Transport;
  */
 public class Session {
 
-    private static final String TAG = "Espressif::" + Session.class.getSimpleName();
+    private static final String TAG = "ESP::" + Session.class.getSimpleName();
     private Transport transport;
     private Security security;
     private boolean isSessionEstablished;

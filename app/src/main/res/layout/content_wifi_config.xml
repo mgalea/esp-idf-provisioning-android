@@ -62,7 +62,7 @@
 
     <include
         android:id="@+id/btn_next"
-        layout="@layout/button"
+        layout="@layout/btn_prov_device"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
