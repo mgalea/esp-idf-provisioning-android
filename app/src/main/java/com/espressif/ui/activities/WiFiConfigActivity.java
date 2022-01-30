@@ -102,6 +102,23 @@ public class WiFiConfigActivity extends AppCompatActivity {
         }
     };
 
+    private View.OnClickListener defaultBtnClickListener = new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+
+            String ssid = etSsid.getText().toString();
+            String password = "wifiIN123";
+
+            if (TextUtils.isEmpty(ssid)) {
+                etSsid.setError(getString(R.string.error_ssid_empty));
+                return;
+            }
+
+            goToProvisionActivity(ssid, password);
+        }
+    };
+
     private View.OnClickListener cancelBtnClickListener = new View.OnClickListener() {
 
         @Override

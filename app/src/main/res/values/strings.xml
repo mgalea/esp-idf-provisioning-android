@@ -21,6 +21,7 @@
     <string name="btn_provision">Provision</string>
     <string name="btn_scan_qr_code">Scan QR Code</string>
     <string name="btn_provision_device">Provision New Device</string>
+    <string name="btn_default_password">Connect Using Defaults</string>
     <string name="btn_connect">Connect</string>
     <string name="btn_connecting">Connecting&#8230;</string>
     <string name="btn_wifi_settings">Go to Wi-Fi Settings</string>
